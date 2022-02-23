@@ -1,0 +1,33 @@
+.grid-col {
+  box-shadow: 0 8px 8px -2px lightblue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-header {
+  background-color: aquamarine;
+  padding-top: 1vh;
+  margin-top: 5vh;
+}
+
+.inputFile {
+  width: 0.1px;
+  height: 0.1px;
+}
+.inputFile .inputLabel {
+  cursor: pointer;
+}
+
+.inputLabel {
+  background-color: rgb(14, 245, 245);
+
+  font-size: 1em;
+  font-weight: 700;
+}
+.inputLabel:hover {
+  background-color: rgb(8, 94, 94);
+  color: wheat;
+  cursor: pointer;
+}
