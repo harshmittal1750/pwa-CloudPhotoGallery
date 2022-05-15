@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Gallery.css";
 import { imagesData } from "../imagesData";
 import Modal from "./Modal";
-import UploadContent from "./UploadContent";
+
 const Gallery = () => {
   const [model, setModel] = useState(null);
 
@@ -10,7 +10,6 @@ const Gallery = () => {
     <div>
       <div className="gallery-header container">
         <div className="h1">Gallery</div>
-        <UploadContent></UploadContent>
       </div>
       <div className="container pt-4">
         <div className="row">

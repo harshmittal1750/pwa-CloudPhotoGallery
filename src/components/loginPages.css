@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans:wght@400;600&display=swap');
+
+.SignIn, .SignUp, .PasswordReset{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#custom2:focus{
+    border-color: #f48fb1;
+    box-shadow: 0 0 0 0.2rem rgb(255,192,203)
+}
+
+
